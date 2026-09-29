@@ -1,97 +1,89 @@
 body {
-    background-color: #f4efe6;
-    font-family: Arial, sans-serif;
-    color: #222222;
+    background-color: #f5eeee;
+    font-family: Verdana, sans-serif;
     margin: 0;
+    color: #222222;
 }
 
 h1 {
-    background-color: #171717;
-    color: #d4af37;
+    background-color: #7b1e1e;
+    color: white;
     text-align: center;
     padding: 40px;
     margin: 0;
-    font-size: 45px;
-}
-
-h2 {
-    color: #171717;
-    text-align: center;
-    font-size: 32px;
-    margin-top: 40px;
-}
-
-h3 {
-    color: #b08b2e;
-    font-size: 24px;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin: 20px;
+    font-size: 40px;
 }
 
 ul {
-    background-color: #171717;
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
+    background-color: #4f1212;
     text-align: center;
+    padding: 20px;
+    margin: 0;
 }
 
 li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 25px;
 }
 
 li a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-weight: bold;
 }
 
 li a:hover {
-    color: #d4af37;
+    color: #e8b4b4;
 }
 
-img {
-    width: 300px;
-    height: 250px;
-    object-fit: cover;
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-}
-
-.card {
-    background-color: white;
-    width: 300px;
-    margin: 30px auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+h2 {
     text-align: center;
+    margin: 50px 0 30px 0;
+    font-size: 30px;
+    color: #7b1e1e;
+}
+
+.boxes {
+    width: 70%;
+    margin: auto;
+}
+
+.box {
+    background-color: white;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    border-left: 7px solid #9e2a2a;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box h3 {
+    font-size: 25px;
+    margin-top: 0;
+    color: #7b1e1e;
+}
+
+.box p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555555;
 }
 
 button {
-    background-color: #171717;
+    background-color: #7b1e1e;
     color: white;
     border: none;
-    padding: 12px 20px;
-    border-radius: 5px;
+    padding: 12px 25px;
+    font-size: 15px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #d4af37;
-    color: #171717;
+    background-color: #4f1212;
 }
 
 footer {
-    background-color: #171717;
+    background-color: #4f1212;
     color: white;
     text-align: center;
-    padding: 25px;
-    margin-top: 50px;
-}

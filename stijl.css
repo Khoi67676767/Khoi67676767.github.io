@@ -54,3 +54,48 @@ li a {
     font-size: 18px;
     line-height: 1.7;
 }
+body {
+    background-color: #f5eeee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #222222;
+}
+
+.menu {
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+
+.menu button {
+    background-color: #7b1e1e;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown {
+    display: none;
+    background-color: white;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.dropdown a {
+    display: block;
+    color: #7b1e1e;
+    text-decoration: none;
+    padding: 15px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.dropdown a:hover {
+    background-color: #f5eeee;
+}
+
+.menu:hover .dropdown {
+    display: block;
+}

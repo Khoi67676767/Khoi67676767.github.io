@@ -1,78 +1,15 @@
-body {
-    background-color: #f5eeee;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    color: #222222;
-}
-
-h1 {
-    background-color: #7b1e1e;
-    color: white;
-    text-align: center;
-    padding: 40px;
-    margin: 0;
-}
-
-ul {
-    background-color: #4f1212;
-    text-align: center;
-    padding: 20px;
-    margin: 0;
-}
-
-li {
-    display: inline;
-    margin: 0 25px;
-}
-
-li a {
-    color: white;
-    text-decoration: none;
-}
-
-.boxes {
-    width: 70%;
-    margin: 60px auto;
-}
-
-.box {
-    background-color: white;
-    border: 3px solid #9e2a2a;
-    border-radius: 10px;
-    padding: 40px;
-    margin-bottom: 40px;
-    text-align: center;
-    min-height: 180px;
-}
-
-.box h2 {
-    color: #7b1e1e;
-    margin-bottom: 20px;
-}
-
-.box p {
-    font-size: 18px;
-    line-height: 1.7;
-}
-body {
-    background-color: #f5eeee;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    color: #222222;
-}
-
-.menu {
-    position: absolute;
-    left: 25px;
-    top: 25px;
+menu {
+    position: fixed;
+    top: 20px;
+    left: 20px;
 }
 
 .menu button {
     background-color: #7b1e1e;
     color: white;
     border: none;
-    padding: 15px 25px;
-    font-size: 17px;
+    padding: 12px 25px;
+    font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
 }
@@ -81,15 +18,15 @@ body {
     display: none;
     background-color: white;
     width: 200px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown a {
     display: block;
+    padding: 14px;
     color: #7b1e1e;
     text-decoration: none;
-    padding: 15px;
-    border-bottom: 1px solid #eeeeee;
+    
 }
 
 .dropdown a:hover {

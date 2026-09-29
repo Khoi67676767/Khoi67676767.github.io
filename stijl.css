@@ -1,6 +1,6 @@
 body {
     background-color: #f5eeee;
-    font-family: Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     color: #222222;
 }
@@ -11,7 +11,6 @@ h1 {
     text-align: center;
     padding: 40px;
     margin: 0;
-    font-size: 40px;
 }
 
 ul {
@@ -29,62 +28,29 @@ li {
 li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-}
-
-li a:hover {
-    color: #e8b4b4;
-}
-
-h2 {
-    text-align: center;
-    margin: 50px 0 30px 0;
-    font-size: 30px;
-    color: #7b1e1e;
 }
 
 .boxes {
     width: 70%;
-    margin: auto;
+    margin: 60px auto;
 }
 
 .box {
     background-color: white;
-    padding: 35px;
-    margin-bottom: 30px;
-    border-radius: 8px;
-    border-left: 7px solid #9e2a2a;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border: 3px solid #9e2a2a;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    min-height: 180px;
 }
 
-.box h3 {
-    font-size: 25px;
-    margin-top: 0;
+.box h2 {
     color: #7b1e1e;
+    margin-bottom: 20px;
 }
 
 .box p {
-    font-size: 16px;
-    line-height: 1.8;
-    color: #555555;
-}
-
-button {
-    background-color: #7b1e1e;
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    font-size: 15px;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #4f1212;
-}
-
-footer {
-    background-color: #4f1212;
-    color: white;
-    text-align: center;
+    font-size: 18px;
+    line-height: 1.7;
 }

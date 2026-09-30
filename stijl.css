@@ -57,3 +57,9 @@ h1 {
     color: #e8d5b0;
     font-size: 40px;
 }
+img {
+    display: block;
+    margin: 25px auto;
+    max-width: 70%;
+    height: auto;
+}

@@ -63,3 +63,11 @@ img {
     max-width: 70%;
     height: auto;
 }
+
+.kleurfoto
+ {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+}

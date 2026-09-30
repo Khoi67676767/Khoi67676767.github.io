@@ -96,7 +96,11 @@ body {
 .box {
     border: 300px solid #9e2a2a;
 }
+
 .box img {
     display: block;
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
     margin: 20px auto;
 }

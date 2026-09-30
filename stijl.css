@@ -90,11 +90,11 @@ p {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 body {
-    border: 5px solid #9e2a2a;
+    border: 500px solid #9e2a2a;
 }
 
 .box {
-    border: 3px solid #9e2a2a;
+    border: 300px solid #9e2a2a;
 }
 .box img {
     display: block;

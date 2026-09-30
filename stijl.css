@@ -1,103 +1,40 @@
 body {
-    background-color: #f5eeee;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    color: #222222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+  
+  /* Zorgt dat de inhoud gecentreerd blijft en niet te breed wordt */
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  /* Rode rand rondom de website */
+  border: 3px solid #e63946;
+  border-radius: 12px;
+  
+  /* Lichte schaduw en binnenruimte voor een mooie afwerking */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  min-height: calc(100vh - 40px);
 }
 
-h1 {
-    background-color: #7b1e1e;
-    color: white;
-    text-align: center;
-    padding: 40px;
-    margin: 0;
-    font-size: 42px;
-}
-
-h2 {
-    color: #7b1e1e;
-    text-align: center;
-    margin-top: 40px;
-}
-
-h3 {
-    color: #7b1e1e;
+/* Aanvullende basisstijlen voor elementen binnen het body-kader */
+h1, h2, h3 {
+  color: #1d3557;
+  margin-top: 0;
 }
 
 p {
-    font-size: 17px;
-    line-height: 1.7;
+  line-height: 1.6;
 }
 
-.menu {                         
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 10;
+a {
+  color: #e63946;
+  text-decoration: none;
 }
 
-.menu button {
-    background-color: #4f1212;
-    color: white;
-    border: none;
-    padding: 13px 25px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.menu button:hover {
-    background-color: #9e2a2a;
-}
-
-.dropdown {
-    display: none;
-    background-color: white;
-    width: 210px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.menu:hover .dropdown {
-    display: block;
-}
-
-.dropdown a {
-    display: block;
-    padding: 15px;
-    color: #7b1e1e;
-    text-decoration: none;
-    border-bottom: 1px solid #eeeeee;
-}
-
-.dropdown a:hover {
-    background-color: #f5dddd;
-}
-
-.boxes {
-    width: 70%;
-    margin: 50px auto;
-}
-
-.box {
-    background-color: white;
-    border: 3px solid #9e2a2a;
-    border-radius: 10px;
-    padding: 35px;
-    margin-bottom: 40px;
-    text-align: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-body {
-    border: 67px solid #9e2a2a;
-}
-
-
-.box img {
-    display: block;
-    width: 70px;
-    height: 50px;
-    object-fit: cover;
-    margin: 20px auto;
+a:hover {
+  text-decoration: underline;
 }

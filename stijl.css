@@ -94,3 +94,14 @@ img {
     object-fit: cover;
     margin: 40px auto;
 }
+/* Link */
+a {
+    color: #f0dfbd;
+    text-decoration: none;
+}
+
+/* Link wanneer je erover gaat */
+a:hover {
+    color: #e8d5b0;
+    text-decoration: underline;
+}

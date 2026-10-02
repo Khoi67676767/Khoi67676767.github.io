@@ -4,8 +4,8 @@ body {
     color: #f0dfbd;
     font-family: Arial, sans-serif;
     text-align: center;
-}
-
+}   /* kleur, tekst en waar*/
+/*dropdown menu*/
 .menu {
     position: fixed;
     top: 20px;
@@ -63,7 +63,7 @@ img {
     max-width: 70%;
     height: auto;
 }
-
+/*bepaal de groote van foto*/
 .kleurfoto
  {
     width: 300px;
@@ -89,4 +89,4 @@ img {
 
 .box p {
     line-height: 1.6;
-}
+} /*box om de tekst*/

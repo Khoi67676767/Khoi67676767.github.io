@@ -72,7 +72,7 @@ img {
     margin: 25px auto;
 }
 .box {
-    background-color: #fffaf5;
+    background-color: #f2e1d5;
     border: 3px solid #9e2a2a;
     border-radius: 12px;
     padding: 30px;
@@ -82,11 +82,8 @@ img {
     text-align: center;
 }
 
-.box h2 {
-    color: #7b1e1e;
-    margin-top: 0;
-}
-
 .box p {
+    color: #222222;
     line-height: 1.6;
-} /*box om de tekst*/
+}
+ /*box om de tekst*/

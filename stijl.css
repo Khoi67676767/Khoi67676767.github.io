@@ -1,32 +1,37 @@
+/* Algemene opmaak van de website */
 body {
     margin: 0;
     background-color: #5a1717;
     color: #f0dfbd;
     font-family: Arial, sans-serif;
     text-align: center;
-}   /* kleur, achtergrond, tekst en waar*/
-/*dropdown menu*/
+}
+
+/* Dropdownmenu */
 .menu {
     position: fixed;
     top: 20px;
     left: 20px;
+    z-index: 10;
 }
 
+/* Knop van het menu */
 .menu button {
     background-color: #e8d5b0;
     color: #5a1717;
     border: 2px solid #3d0e0e;
-    padding: 24px 50px;
-    font-size: 24px;
+    padding: 18px 35px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     border-radius: 8px;
 }
 
+/* Het uitklapmenu */
 .dropdown {
     display: none;
     position: absolute;
-    top: 48px;
+    top: 58px;
     left: 0;
     background-color: #e8d5b0;
     min-width: 190px;
@@ -34,6 +39,7 @@ body {
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
+/* Links in het dropdownmenu */
 .dropdown a {
     display: block;
     padding: 14px 18px;
@@ -43,34 +49,25 @@ body {
     font-weight: bold;
 }
 
+/* Kleur wanneer je over een link gaat */
 .dropdown a:hover {
     background-color: #5a1717;
     color: #e8d5b0;
 }
 
+/* Het menu zichtbaar maken als je erover gaat */
 .menu:hover .dropdown {
     display: block;
 }
 
+/* Titel van de website */
 h1 {
-    margin-top: 100px;
+    margin-top: 120px;
     color: #e8d5b0;
     font-size: 40px;
 }
-img {
-    display: block;
-    margin: 25px auto;
-    max-width: 70%;
-    height: auto;
-}
-/*bepaal de groote van foto*/
-.kleurfoto
- {
-    width: 300px;
-    height: auto;
-    display: block;
-    margin: 25px auto;
-}
+
+/* Tekstvakken */
 .box {
     background-color: #f2e1d5;
     border: 3px solid #9e2a2a;
@@ -82,14 +79,18 @@ img {
     text-align: center;
 }
 
+/* Tekst in de tekstvakken */
 .box p {
     color: #222222;
     line-height: 1.6;
+    font-size: 18px;
 }
- /*box om de tekst*/
 
-a {
-    color: #f0dfbd;
-    text-decoration: none;
+/* Afbeeldingen */
+img {
+    display: block;
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    margin: 40px auto;
 }
-/*andere kleur van de link van Binary Bonaza*/

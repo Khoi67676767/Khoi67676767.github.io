@@ -99,3 +99,21 @@ a {
     color: #f0dfbd;
     text-decoration: none;
 }
+/* Decoratie aan de zijkanten */
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 8px;
+    background-color: #e8d5b0;
+}
+
+body::before {
+    left: 30px;
+}
+
+body::after {
+    right: 30px;
+}

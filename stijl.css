@@ -85,7 +85,11 @@ h1 {
     line-height: 1.6;
     font-size: 18px;
 }
-
+/*kleur van de tekst h4*/
+.box h4 {
+    color: #222222;
+    font-size: 22px;
+}
 /* Afbeeldingen */
 img {
     display: block;
